@@ -1,0 +1,44 @@
+# RNA-Seq Training: Epithelial-to-Mesenchymal Transition (EMT)
+
+##  Overview
+This repository contains a subsampled RNA-seq dataset  for practicing RNA-sequencing bioinformatics workflows. 
+ to execute an entire pipeline—from raw reads to differential expression—on standard laptops or training servers without requiring high-performance computing (HPC) resources.
+
+##  Experimental Design & Biological Context
+The data originates from an epithelial-to-mesenchymal transition (EMT) study by *Yang et al. (2016)*.
+EMT is a biological process where polarized epithelial cells undergo changes to adopt a mesenchymal cell phenotype (often associated with embryogenesis, wound healing, and cancer metastasis).
+
+- **Condition 1 (Control):** `Day 0` - Uninduced epithelial cells (3 Replicates)
+- **Condition 2 (Treatment):** `Day 7` - 7 days post-induction of EMT (3 Replicates)
+- **Sequencing Strategy:** Paired-End (R1 and R2 files)
+
+##  Subsampling Strategy (Why this dataset is small) -  and we need not concern with this but good to know
+The original massive fastq files from the SRA database (Accession: `SRP066794`) were heavily filtered by the authors:
+1. Mapped against the human reference genome.
+2. Filtered to keep **only reads mapping to Chromosome 18 (chr18)**.
+3. Randomly down-sampled by an additional 50%.
+4. **Final Result:** This dataset represents approximately **0.5% of the original sequencing depth**.
+
+## File Structure
+You should have 12 `fastq.gz` files in your data directory, representing 6 biological samples with Paired-End sequencing.
+
+
+ data/
+ ├── Day_0_1_chr18.sampled.R1.fastq.gz
+ ├── Day_0_1_chr18.sampled.R2.fastq.gz
+ ├── Day_0_2_chr18.sampled.R1.fastq.gz
+ ├── Day_0_2_chr18.sampled.R2.fastq.gz
+ ├── Day_0_3_chr18.sampled.R1.fastq.gz
+ ├── Day_0_3_chr18.sampled.R2.fastq.gz
+ ├── Day_7_1_chr18.sampled.R1.fastq.gz
+ ├── Day_7_1_chr18.sampled.R2.fastq.gz
+ ├── Day_7_2_chr18.sampled.R1.fastq.gz
+ ├── Day_7_2_chr18.sampled.R2.fastq.gz
+ ├── Day_7_3_chr18.sampled.R1.fastq.gz
+ └── Day_7_3_chr18.sampled.R2.fastq.gz
+
+
+Download the data from the follwing link - https://zenodo.org/records/7525740
+
+Use the  metadata for DeSeq2 analyses.
+
