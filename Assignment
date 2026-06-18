@@ -1,0 +1,45 @@
+Assignment
+
+Because this dataset is limited to Human Chromosome 18, ensure you download only the Human Chromosome 18 FASTA and GTF/GFF3 annotation files for your reference genome indexing.
+Using the full genome will unnecessarily slow down you.
+
+State the versions and source of your reference and annotation files.
+Find out how to subset the the GTF and reference file for chr18 only.
+
+Tools to use - 
+
+1. Quality Control (QC)
+Assess the quality of the raw reads.
+    Tools: FastQC, MultiQC
+
+2. Read Trimming
+Remove adapter sequences and poor-quality base calls.
+    Tools: Trimmomatic, Cutadapt, or fastp
+
+3. Genome Alignment
+Map the trimmed reads to the human reference genome (Chromsome 18).
+    Tools: STAR, HISAT2 or salmon
+    You must build a reference index for your aligner before running this step.
+
+4. Alignment QC
+Assess the quality of aligned bam files.
+    tools: Qualimap, RseqQC, samtools, deeptools
+
+5. Read Quantification
+Count how many reads map to each gene/transcript.
+    Tools: featureCounts (Subread package) or pseudo-aligners like Salmon / Kallisto.
+
+6. Differential Expression Analysis
+Use the generated count matrix to find genes that are differentially expressed between Day 0 and Day 7.
+    Tools: DESeq2 or edgeR (in R/RStudio).
+    Goal: Identify which genes on Chromosome 18 are significantly up-regulated or down-regulated during the EMT transition.
+    Provide your logic for deciding log2FC and padj threshlod. 
+
+7. Pathway and process enrichment
+Use the list of significantly up and down regulateed genes for GO terms enrichment and 1) ORA analysis and 2)GSEA analysis for pathway enrichment.
+Specify which pathway database you have use.
+
+
+
+
+ Original Paper: Yang Y, et al. Determination of a Comprehensive Alternative Splicing Regulatory Network and Combinatorial Regulation by Key Factors during the Epithelial-to-Mesenchymal Transition. Mol Cell Biol. 2016. PMID: 27044866
