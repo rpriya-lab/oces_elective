@@ -1,0 +1,7 @@
+Sample_ID,Condition,Replicate,Sequence_Type,Read_1_File,Read_2_File,Organism,Original_SRA,condition
+Day_0_1,Day_0,1,Paired-End,Day_0_1_chr18.sampled.R1.fastq.gz,Day_0_1_chr18.sampled.R2.fastq.gz,Homo sapiens,SRP066794,control
+Day_0_2,Day_0,2,Paired-End,Day_0_2_chr18.sampled.R1.fastq.gz,Day_0_2_chr18.sampled.R2.fastq.gz,Homo sapiens,SRP066794,control
+Day_0_3,Day_0,3,Paired-End,Day_0_3_chr18.sampled.R1.fastq.gz,Day_0_3_chr18.sampled.R2.fastq.gz,Homo sapiens,SRP066794,control
+Day_7_1,Day_7,1,Paired-End,Day_7_1_chr18.sampled.R1.fastq.gz,Day_7_1_chr18.sampled.R2.fastq.gz,Homo sapiens,SRP066794,treatment
+Day_7_2,Day_7,2,Paired-End,Day_7_2_chr18.sampled.R1.fastq.gz,Day_7_2_chr18.sampled.R2.fastq.gz,Homo sapiens,SRP066794,treatment
+Day_7_3,Day_7,3,Paired-End,Day_7_3_chr18.sampled.R1.fastq.gz,Day_7_3_chr18.sampled.R2.fastq.gz,Homo sapiens,SRP066794,treatment
