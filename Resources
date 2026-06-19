@@ -1,5 +1,21 @@
-Read Deseq2 experiment design here 
-https://rstudio-pubs-static.s3.amazonaws.com/329027_593046fb6d7a427da6b2c538caf601e1.html
+Get your samples data here
+--------------------------
+https://zenodo.org/records/7525740
+
+Get your subsetted genome reference and annotation here 
+(these are subsetted from GRCh38.primary_assembly.genome.fa and gencode.v49.primary_assembly.annotation.gtf, respectively)
+-------------------------------------------------------
+https://zenodo.org/records/20757707
 
 Read STAR usage explained in detail here 
+-----------------------------------------
 https://physiology.med.cornell.edu/faculty/skrabanek/lab/angsd/lecture_notes/STARmanual.pdf
+
+Read Deseq2 experiment design here 
+----------------------------------
+https://rstudio-pubs-static.s3.amazonaws.com/329027_593046fb6d7a427da6b2c538caf601e1.html
+
+Read clusterprofiler usage here
+--------------------------------
+https://bioconductor.org/packages/release/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html
+
