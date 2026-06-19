@@ -10,6 +10,10 @@ This repository contains a
 4.lecture slides
 for practicing RNA-sequencing bioinformatics workflows. 
 
+
+Get your sample data from the following link -
+https://zenodo.org/records/7525740
+
 The data originates from an epithelial-to-mesenchymal transition (EMT) study by *Yang et al. (2016)*.
 - Control:   Day_0 - Uninduced epithelial cells (3 Replicates)
 - Treatment: Day_7 - 7 days post-induction of EMT (3 Replicates)
