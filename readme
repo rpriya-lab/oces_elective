@@ -1,37 +1,21 @@
 RNA-Seq Training
 ----------------
 
-Overview
---------
-This repository contains a subsampled RNA-seq dataset,metadata, resources for practicing RNA-sequencing bioinformatics workflows. 
-to execute an entire pipeline—from raw reads to differential expression—on standard laptops or training servers without requiring high-performance computing (HPC) resources
+
+This repository contains a 
+1.subsampled RNA-seq dataset
+2.metadata
+3.resources - links to access sample FASTQ files, subesetted refrence genome and annotation
+5. evaluation criteria
+4.lecture slides
+for practicing RNA-sequencing bioinformatics workflows. 
 
 The data originates from an epithelial-to-mesenchymal transition (EMT) study by *Yang et al. (2016)*.
-EMT is a biological process where polarized epithelial cells undergo changes to adopt a mesenchymal cell phenotype (often associated with embryogenesis, wound healing, and cancer metastasis).
-
 - Control:   Day_0 - Uninduced epithelial cells (3 Replicates)
 - Treatment: Day_7 - 7 days post-induction of EMT (3 Replicates)
 - Sequencing Strategy: Paired-End (R1 and R2 files)
-
  This dataset represents approximately 0.5% of the original sequencing depth reads which map only to chr18 as modified by the original authors-
-(Gautheret, D. (2023, January 11). EMT RNA-seq dataset, subsampled. Zenodo. https://doi.org/10.5281/zenodo.7525740)
+ (Gautheret, D. (2023, January 11). EMT RNA-seq dataset, subsampled. Zenodo. https://doi.org/10.5281/zenodo.7525740)
 
 
-File Structure
---------------
 You should have 12 `fastq.gz` files in your data directory, representing 6 biological samples with Paired-End sequencing.
-
-
- ├── Day_0_1_chr18.sampled.R1.fastq.gz
- ├── Day_0_1_chr18.sampled.R2.fastq.gz
- ├── Day_0_2_chr18.sampled.R1.fastq.gz
- ├── Day_0_2_chr18.sampled.R2.fastq.gz
- ├── Day_0_3_chr18.sampled.R1.fastq.gz
- ├── Day_0_3_chr18.sampled.R2.fastq.gz
- ├── Day_7_1_chr18.sampled.R1.fastq.gz
- ├── Day_7_1_chr18.sampled.R2.fastq.gz
- ├── Day_7_2_chr18.sampled.R1.fastq.gz
- ├── Day_7_2_chr18.sampled.R2.fastq.gz
- ├── Day_7_3_chr18.sampled.R1.fastq.gz
- └── Day_7_3_chr18.sampled.R2.fastq.gz
-
