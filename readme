@@ -1,9 +1,10 @@
 RNA-Seq Training
+----------------
 
 Overview
+--------
 This repository contains a subsampled RNA-seq dataset  for practicing RNA-sequencing bioinformatics workflows. 
- to execute an entire pipeline—from raw reads to differential expression—on standard laptops or training servers without requiring high-performance computing (HPC) resources.
-
+ to execute an entire pipeline—from raw reads to differential expression—on standard laptops or training servers without requiring high-performance computing (HPC) resources
  Experimental Design & Biological Context
 The data originates from an epithelial-to-mesenchymal transition (EMT) study by *Yang et al. (2016)*.
 EMT is a biological process where polarized epithelial cells undergo changes to adopt a mesenchymal cell phenotype (often associated with embryogenesis, wound healing, and cancer metastasis).
@@ -21,6 +22,7 @@ The original massive fastq files from the SRA database (Accession: `SRP066794`) 
 4. Final Result: This dataset represents approximately 0.5% of the original sequencing depth.
 
 File Structure
+--------------
 You should have 12 `fastq.gz` files in your data directory, representing 6 biological samples with Paired-End sequencing.
 
 
