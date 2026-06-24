@@ -1,0 +1,6 @@
+This folder contains the lecture, paramters notes and codes to perform variant calling on a set of subsamples exome files using GATK best practices pipeline.
+The sample data can be accessed via https://zenodo.org/records/3243160.
+
+The data has been originally subsampled by 
+Uva, P., & Cuccuru, G. (2016). Training material for the course "Exome analysis with GALAXY" [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3243160
+
