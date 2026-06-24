@@ -3,11 +3,11 @@ RNA-Seq Training
 
 
 This repository contains a 
-1.subsampled RNA-seq dataset
-2.metadata
-3.resources - links to access sample FASTQ files, subesetted refrence genome and annotation
-5. evaluation criteria
-4.lecture slides
+1. Subsampled RNA-seq dataset
+2. Metadata
+3. Resources - links to access sample FASTQ files, subesetted refrence genome and annotation
+5. Evaluation criteria
+4. Lecture slides
 for practicing RNA-sequencing bioinformatics workflows. 
 
 
